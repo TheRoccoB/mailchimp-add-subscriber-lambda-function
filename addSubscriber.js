@@ -1,11 +1,10 @@
 const axios = require('axios');
 
-
-
 // datacenter id. find by logging in to mailchimp. ex: https://us19.admin.mailchimp.com/ => us19
 const DC = 'us19';
 
 // create one in mailchimp: Extras => API Keys
+// DO NOT CHECK IN TO A PUBLIC REPO!
 const KEY = 'YOUR_API_KEY';
 
 // your audience id: https://mailchimp.com/help/find-audience-id (looks like 12341916e5)
